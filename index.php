@@ -7,17 +7,21 @@
 </head>
 <body>
     <h1>Introdução à programação backend</h1>
+
     <?php
     echo 'olá, Rafael';
+    echo '<br/>';
 
     $ano_nascimento = 1983;
+
+
     $ano_atual = 2024;
     $idade = $ano_atual - $ano_nascimento;
 
-    echo 'você possui '. $idade . ' anos'
+    echo 'você possui '. $idade . ' anos';
     ?>
 
-
-    
+    <br/>
+    <a href="formulario.php">Ir para formulário</a>
 </body>
 </html>
